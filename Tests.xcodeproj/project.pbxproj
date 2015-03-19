@@ -13,6 +13,13 @@
 		E2B90B0C1AB7308800E22BB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B90B0B1AB7308800E22BB2 /* Images.xcassets */; };
 		E2B90B0F1AB7308800E22BB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2B90B0D1AB7308800E22BB2 /* LaunchScreen.xib */; };
 		E2B90B1B1AB7308800E22BB2 /* TestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B90B1A1AB7308800E22BB2 /* TestsTests.swift */; };
+		E2B90B5C1AB9D82E00E22BB2 /* QuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B90B5B1AB9D82E00E22BB2 /* QuoteTableViewCell.swift */; };
+		E2B90B5E1AB9D8FE00E22BB2 /* QuoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B90B5D1AB9D8FE00E22BB2 /* QuoteTableViewController.swift */; };
+		E2B90B601AB9E75400E22BB2 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B90B5F1AB9E75400E22BB2 /* QuoteModel.swift */; };
+		E2B90B641ABA323F00E22BB2 /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B90B611ABA323F00E22BB2 /* img1.png */; };
+		E2B90B661ABA323F00E22BB2 /* img3.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B90B631ABA323F00E22BB2 /* img3.png */; };
+		E2B90B681ABAED0F00E22BB2 /* img2.gif in Resources */ = {isa = PBXBuildFile; fileRef = E2B90B671ABAED0F00E22BB2 /* img2.gif */; };
+		E2B90B6A1ABB0DD000E22BB2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B90B691ABB0DD000E22BB2 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		E2B90B141AB7308800E22BB2 /* TestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B90B191AB7308800E22BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2B90B1A1AB7308800E22BB2 /* TestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsTests.swift; sourceTree = "<group>"; };
+		E2B90B5B1AB9D82E00E22BB2 /* QuoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteTableViewCell.swift; sourceTree = "<group>"; };
+		E2B90B5D1AB9D8FE00E22BB2 /* QuoteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteTableViewController.swift; sourceTree = "<group>"; };
+		E2B90B5F1AB9E75400E22BB2 /* QuoteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		E2B90B611ABA323F00E22BB2 /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
+		E2B90B631ABA323F00E22BB2 /* img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img3.png; sourceTree = "<group>"; };
+		E2B90B671ABAED0F00E22BB2 /* img2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = img2.gif; sourceTree = "<group>"; };
+		E2B90B691ABB0DD000E22BB2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +93,17 @@
 			children = (
 				E2B90B041AB7308800E22BB2 /* AppDelegate.swift */,
 				E2B90B061AB7308800E22BB2 /* ViewController.swift */,
+				E2B90B611ABA323F00E22BB2 /* img1.png */,
+				E2B90B671ABAED0F00E22BB2 /* img2.gif */,
+				E2B90B631ABA323F00E22BB2 /* img3.png */,
 				E2B90B081AB7308800E22BB2 /* Main.storyboard */,
 				E2B90B0B1AB7308800E22BB2 /* Images.xcassets */,
 				E2B90B0D1AB7308800E22BB2 /* LaunchScreen.xib */,
 				E2B90B021AB7308800E22BB2 /* Supporting Files */,
+				E2B90B5B1AB9D82E00E22BB2 /* QuoteTableViewCell.swift */,
+				E2B90B5D1AB9D8FE00E22BB2 /* QuoteTableViewController.swift */,
+				E2B90B5F1AB9E75400E22BB2 /* QuoteModel.swift */,
+				E2B90B691ABB0DD000E22BB2 /* DetailViewController.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -193,8 +214,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B90B0A1AB7308800E22BB2 /* Main.storyboard in Resources */,
+				E2B90B641ABA323F00E22BB2 /* img1.png in Resources */,
 				E2B90B0F1AB7308800E22BB2 /* LaunchScreen.xib in Resources */,
+				E2B90B681ABAED0F00E22BB2 /* img2.gif in Resources */,
 				E2B90B0C1AB7308800E22BB2 /* Images.xcassets in Resources */,
+				E2B90B661ABA323F00E22BB2 /* img3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +236,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B90B601AB9E75400E22BB2 /* QuoteModel.swift in Sources */,
 				E2B90B071AB7308800E22BB2 /* ViewController.swift in Sources */,
 				E2B90B051AB7308800E22BB2 /* AppDelegate.swift in Sources */,
+				E2B90B6A1ABB0DD000E22BB2 /* DetailViewController.swift in Sources */,
+				E2B90B5E1AB9D8FE00E22BB2 /* QuoteTableViewController.swift in Sources */,
+				E2B90B5C1AB9D82E00E22BB2 /* QuoteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +433,7 @@
 				E2B90B201AB7308800E22BB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2B90B211AB7308800E22BB2 /* Build configuration list for PBXNativeTarget "TestsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +442,7 @@
 				E2B90B231AB7308800E22BB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
